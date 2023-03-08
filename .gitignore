@@ -1,0 +1,112 @@
+.tmp/
+.vscode/
+*.swp
+scratch.*
+temp/
+
+# Build & deployment files
+/android/app/google-services.json
+/android/google-java-format-*.jar
+/release-version.json
+/deploy-config.json
+/ios/edge/GoogleService-Info.plist
+/ios/Pods/
+android-release.bundle.map
+env.json
+IDEWorkspaceChecks.plist
+ios-release.bundle.map
+keystores/
+
+# Debugging
+overrideTheme.json
+
+# Code Coverage
+coverage/
+
+# Gui plugins
+/android/app/src/main/assets/plugins/
+/ios/plugins/
+/copy-wyre.sh
+/copy-simplex.sh
+
+# Yaob bridge
+/src/util/bridge/rolledUp.js
+/src/util/bridge/injectThisInWebView.js
+
+# Edge core
+/android/app/src/main/assets/edge-core/
+/ios/edge-core/
+
+# Generated headers
+/android/app/src/main/java/co/edgesecure/app/EdgeApiKey.java
+/ios/EdgeApiKey.swift
+
+# Checkpoint jsons
+/android/app/src/main/assets/saplingtree/
+/android/app/src/main/assets/piratesaplingtree/
+
+# ----------------------------------------------------------------------
+# Everything below comes from React Native.
+# Do not edit this section except during React Native version upgrades.
+# ----------------------------------------------------------------------
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+/ios/Pods/

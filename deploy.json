@@ -1,0 +1,42 @@
+{
+    "edge": {
+      "productName": "Cryptobase ATM Wallet",
+      "xcodeWorkspace": "CryptobaseATM.xcworkspace",
+      "xcodeScheme": "CryptobaseATM",
+      "androidKeyStore": "edge-release-keystore.jks",
+      "androidKeyStoreAlias": "edge",
+      "androidKeyStorePassword": "xxxxxxxxx",
+      "androidTask": "assembleRelease",
+      "hockeyAppToken": "xxxxx",
+      "hockeyAppTags": "internal",
+      "bugsnagApiKey": "xxxxxxxxxx",
+      "appCenterApiToken": "xxxxxxxxxx",
+      "appCenterGroupName": "xxxxxxxxxx",
+      "appCenterDistroGroup": "xxxxxxxxxx",
+      "appleDeveloperTeamId": "xxxxxxxxxx",
+      "ios": {
+        "master": {
+          "hockeyAppId": "xxxxxxxxx"
+        },
+        "develop": {
+          "hockeyAppId": "xxxxxxxxx"
+        }
+      },
+      "android": {
+        "master": {
+          "hockeyAppId": "xxxxxxxxx"
+        },
+        "develop": {
+          "hockeyAppId": "xxxxxxxxx"
+        }
+      },
+      "envJson": {
+        "yolo": {
+          "YOLO_USERNAME": "",
+          "YOLO_PASSWORD": ""
+        }
+      }
+    }
+  }
+  
+  

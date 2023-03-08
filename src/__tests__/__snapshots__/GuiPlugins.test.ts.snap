@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GuiPlugins tools filter android + US as expected 1`] = `
+Array [
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "phony",
+    "title": "Credit card",
+  },
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "wire",
+      "hack",
+    ],
+    "pluginId": "gox",
+    "title": "Wire transfer",
+  },
+]
+`;
+
+exports[`GuiPlugins tools filter ios + JP as expected 1`] = `
+Array [
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "wire",
+      "hack",
+    ],
+    "pluginId": "gox",
+    "title": "Nice lawsuit",
+  },
+]
+`;
+
+exports[`GuiPlugins tools filter ios + US - gox as expected 1`] = `
+Array [
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "/applePay",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "applepay",
+    ],
+    "pluginId": "phony",
+    "title": "Apple Pay",
+  },
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "phony",
+    "title": "Credit card",
+  },
+]
+`;
+
+exports[`GuiPlugins tools filter ios + US as expected 1`] = `
+Array [
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "/applePay",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "applepay",
+    ],
+    "pluginId": "phony",
+    "title": "Apple Pay",
+  },
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "wire",
+      "hack",
+    ],
+    "pluginId": "gox",
+    "title": "Wire transfer",
+  },
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "phony",
+    "title": "Credit card",
+  },
+]
+`;
+
+exports[`Production plugin data Buy plugins match snapshot on android + IL 1`] = `
+Array [
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Fee: 5-7%
+Settlement: 10 - 30 minutes",
+    "paymentType": "googlepay",
+    "paymentTypeLogoKey": "googlepay",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "creditcard",
+    "title": "Google Pay",
+  },
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Fee: 5-7%
+Settlement: 10 - 30 minutes",
+    "paymentType": "credit",
+    "paymentTypeLogoKey": "credit",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "creditcard",
+    "title": "Credit and Debit Card",
+  },
+  Object {
+    "cryptoCodes": Array [
+      "BTC",
+      "ETH",
+    ],
+    "deepPath": "/order/buy",
+    "deepQuery": Object {
+      "order_id": "null",
+      "page": "0",
+    },
+    "description": "Fee: 5.95%
+Settlement: 1 - 48 hours",
+    "partnerIconPath": "bits-of-gold-logo-sm.png",
+    "paymentTypeLogoKey": "bank",
+    "paymentTypes": Array [
+      "bank",
+    ],
+    "pluginId": "bitsofgold",
+    "title": "Israeli Bank Transfer",
+  },
+]
+`;
+
+exports[`Production plugin data Buy plugins match snapshot on iOS + US 1`] = `
+Array [
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Fee: 4-5%
+Settlement: 1 - 4 days",
+    "paymentType": "iach",
+    "paymentTypeLogoKey": "bank",
+    "paymentTypes": Array [
+      "iach",
+    ],
+    "pluginId": "iach",
+    "title": "ACH Bank Transfer",
+  },
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Fee: 5-7%
+Settlement: 10 - 30 minutes",
+    "paymentType": "applepay",
+    "paymentTypeLogoKey": "applepay",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "creditcard",
+    "title": "Apple Pay",
+  },
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Fee: 5-7%
+Settlement: 10 - 30 minutes",
+    "paymentType": "credit",
+    "paymentTypeLogoKey": "credit",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "creditcard",
+    "title": "Credit and Debit Card",
+  },
+  Object {
+    "cryptoCodes": Array [
+      "BTC",
+    ],
+    "deepPath": "/",
+    "deepQuery": Object {},
+    "description": "Fee: 3-8%
+Settlement: Instant",
+    "partnerIconPath": "libertyXlogo.png",
+    "paymentTypeLogoKey": "cash",
+    "paymentTypes": Array [
+      "cash",
+      "credit",
+    ],
+    "pluginId": "libertyx",
+    "title": "In-person Cash and Debit Card",
+  },
+  Object {
+    "cryptoCodes": Array [
+      "BTC",
+      "BCH",
+      "DASH",
+      "DOGE",
+      "LTC",
+    ],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Spend at thousands of merchants and earn crypto back",
+    "partnerIconPath": "ionia.png",
+    "paymentTypeLogoKey": "giftcard",
+    "paymentTypes": Array [
+      "giftcard",
+    ],
+    "pluginId": "ionia",
+    "title": "Spend USD -> Earn Crypto",
+  },
+]
+`;
+
+exports[`Production plugin data Sell plugins match snapshot on iOS + US 1`] = `
+Array [
+  Object {
+    "cryptoCodes": Array [],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Fee: 4-5% / Settlement: 1 - 4 days",
+    "partnerIconPath": "icon_black_small.png",
+    "paymentTypeLogoKey": "bank",
+    "paymentTypes": Array [
+      "credit",
+    ],
+    "pluginId": "moonpay",
+    "title": "ACH Bank Transfer",
+  },
+  Object {
+    "cryptoCodes": Array [
+      "BTC",
+      "ETH",
+      "LINK",
+      "DAI",
+      "LTC",
+    ],
+    "deepPath": "",
+    "deepQuery": Object {
+      "country": "US",
+    },
+    "description": "Fee: Varies / Settlement: 10 - 20 minutes
+Limit: Varies",
+    "partnerIconPath": "mktg/bitaccess.png",
+    "paymentTypeLogoKey": "cash",
+    "paymentTypes": Array [
+      "cash",
+    ],
+    "pluginId": "bitaccess",
+    "title": "Cash",
+  },
+  Object {
+    "cryptoCodes": Array [
+      "BTC",
+      "DASH",
+      "DOGE",
+      "ETH",
+      "LTC",
+    ],
+    "deepPath": "",
+    "deepQuery": Object {},
+    "description": "Buy gift cards and reload phones with crypto",
+    "partnerIconPath": "bitrefill-2.png",
+    "paymentTypeLogoKey": "giftcard",
+    "paymentTypes": Array [
+      "giftcard",
+    ],
+    "pluginId": "bitrefill",
+    "title": "Gift Cards",
+  },
+]
+`;

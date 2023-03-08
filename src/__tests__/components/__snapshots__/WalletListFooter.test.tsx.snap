@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WalletListFooter should render with loading props 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "stretch",
+      "borderTopColor": "rgba(255, 255, 255, .1)",
+      "borderTopWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "marginLeft": 22,
+      "marginVertical": 22,
+      "paddingRight": 22,
+      "paddingTop": 17,
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 73,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#00f1a2",
+            "fontSize": 34,
+          },
+          Object {
+            "color": "#00f1a2",
+            "fontFamily": "Quicksand-Medium",
+            "margin": 6,
+          },
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      adjustsFontSizeToFit={true}
+      minimumFontScale={0.65}
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 22,
+            "includeFontPadding": false,
+          },
+          Array [
+            Object {
+              "color": "#00f1a2",
+              "fontFamily": "Quicksand-Medium",
+              "margin": 6,
+            },
+            Object {
+              "flexShrink": 1,
+            },
+          ],
+          null,
+        ]
+      }
+    >
+      Add Wallet
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255, 255, 255, 0)",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 73,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": "#00f1a2",
+            "fontSize": 34,
+          },
+          Object {
+            "color": "#00f1a2",
+            "fontFamily": "Quicksand-Medium",
+            "margin": 6,
+          },
+          Object {
+            "fontFamily": "Ionicons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      adjustsFontSizeToFit={true}
+      minimumFontScale={0.65}
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontFamily": "Quicksand-Regular",
+            "fontSize": 22,
+            "includeFontPadding": false,
+          },
+          Array [
+            Object {
+              "color": "#00f1a2",
+              "fontFamily": "Quicksand-Medium",
+              "margin": 6,
+            },
+            Object {
+              "flexShrink": 1,
+            },
+          ],
+          null,
+        ]
+      }
+    >
+      Add Token
+    </Text>
+  </View>
+</View>
+`;
